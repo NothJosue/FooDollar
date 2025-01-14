@@ -1,0 +1,11 @@
+Menu
+Tema de la comida: Mariscos
+Bebidas: alcoholicas, gaseosas
+roles: admin, usuario
+
+
+1- Los precios de los platillos seran en dolares ee.uu $
+2- Todos los usuarios pueden comprar comida y gaseosas.
+3- Los usuarios deben tener su documento de identidad>21 solo para los que van a tomar bebidas alcoholicas.
+4- Los usuario deben dejar un 15% de propina respecto a la compra.
+5- Los usuario deben tener un sistema de carrito de compras.
