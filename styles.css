@@ -1,0 +1,53 @@
+/* Estilos generales */
+*{  
+    font-family: "Iceland";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos en el footer */
+.footer{
+    display: flex;
+    background-color: #49492E;
+    justify-content: space-between;
+}
+.footer-social{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer-container{
+    color: #fff;
+    padding: 50px;
+}
+
+.footer-redes{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.footer-li{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-center{
+    vertical-align: middle;
+    width: 110px;
+    height: 24px;
+}
+.footer-social_li{
+    color: #BDBDBD;
+    text-decoration: none;
+}
+.footer-div{
+    width: 270px;
+    height: 60px;
+}
+.footer-line{
+    width: 2px;
+    background: #fff;
+}

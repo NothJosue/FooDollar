@@ -4,68 +4,108 @@
     <!--etiqueta para css-->
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>Shurkers</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+      </style>
   </head>
   <body>
+    <div class="navegation-bar">
+      <!--esta es la barra de navegacion-->
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#"><img src="logo.png" alt="logo de la pagina" /></a>
+          </li>
+          <li><a class="nav-link" href="#">Inicio</a></li>
+          <li><a class="nav-link" href="#">Menu</a></li>
+          <li><a class="nav-link" href="#">Bartender</a></li>
+          <li><a class="nav-link" href="#">Contact Us</a></li>
+          <li><a class="nav-link" href="#">Login</a></li>
+          <li><a class="nav-link" href="#">Register</a></li>
+          <!--AQUI BA LA IMAGEN DEL CARRITO-->
+          <li>
+            <a href="#"><img src="imagen.png" alt="carrito de conpras" /></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-<div class="navegation-bar"> <!--esta es la barra de navegacion-->
-  <nav>
-    <ul class="nav-list">
-      <li><a href="#"><img src="logo.png" alt="logo de la pagina"></a></li>
-      <li><a class="nav-link" href="#">Inicio</a></li>
-      <li><a class="nav-link" href="#">Menu</a></li>
-      <li><a class="nav-link" href="#">Bartender</a></li>
-      <li><a class="nav-link" href="#">Contact Us</a></li>
-      <li><a class="nav-link" href="#">Login</a></li>
-      <li><a class="nav-link" href="#">Register</a></li>
-      <!--AQUI BA LA IMAGEN DEL CARRITO-->
-      <li><a href="#"><img src="imagen.png" alt="carrito de conpras" ></a></li>
-    </ul>
-  </nav>
-</div>
+    <div>
+      <!-- DIV de la imagen central  -->
+      <div>
+        <!-- DIV de la imagen izquierda de la pagina -->
 
-    <div> <!-- DIV de la imagen central  -->
-        <div>  <!-- DIV de la imagen izquierda de la pagina -->
-            
-            <img src="Ruta-imagen/ruta1.jpg" alt="Imagen 1">
-        </div>
-        <div> <!-- DIV de la imagen izquierda de la pagina -->
+        <img src="Ruta-imagen/ruta1.jpg" alt="Imagen 1" />
+      </div>
+      <div>
+        <!-- DIV de la imagen izquierda de la pagina -->
 
-            <img src="Ruta-imagen/ruta2.jpg" alt="Imagen 2">
-        </div>  
-    </div> 
+        <img src="Ruta-imagen/ruta2.jpg" alt="Imagen 2" />
+      </div>
+    </div>
 
     <!-- footer-->
     <div>
-      <footer>
-        <div>
-          <div> <!--parte hisquierda de el footer-->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-redes">
+            <!--parte hisquierda de el footer-->
             <span>Social Networks</span>
           </div>
-          <div>
-            <ul>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Youtube</a></li>
-              <li><a href="#">Tiktok</a></li>
-              <li><a href="#">Facebook</a></li>
+          <div class="footer-div">
+            <ul class="footer-social">
+              <li class="footer-center">
+                <a class="footer-social_li" href="#">
+                  <img src="images/logo-instragram.png" alt="logo de instragram" />
+                  <span>Instragram</span>
+                </a>
+              </li>
+              <li class="footer-center">
+                <a class="footer-social_li" href="#">
+                  <img src="images/logo-youtube.png" alt="logo de youtube">
+                  <span>Youtube</span>
+                </a>
+              </li>
+              <li class="footer-center">
+                <a class="footer-social_li" href="#">
+                  <img src="images/logo-tiktok.png" alt="logo de tiktok">
+                  <span>Tiktok</span>
+                </a>
+              </li>
+              <li class="footer-center">
+                <a class="footer-social_li" href="#">
+                  <img src="images/logo-facebook.png" alt="logo de facebook">
+                  <span>Facebook</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div>
-          <div> <!--parte del centro de el footer-->
+        
+        <!--LINEA DEL FOOTER-->
+        <div class="footer-line"></div>
+
+        <div class="footer-container">
+          <div class="footer-redes">
+            <!--parte del centro de el footer-->
             <span>©opyright 2025</span>
           </div>
-          <div>
-            <img src="#" alt="Imagen de la pagina web" />
+          <div class="footer-li">
+            <img src="images/logo.jpg" alt="Imagen de la pagina web" />
           </div>
         </div>
 
-        <div>
-          <div> <!--parte derecha de el footer-->
+        <!--LINEA DEL FOOTER-->
+        <div class="footer-line"></div>
+
+        <div class="footer-container">
+          <div class="footer-redes">
+            <!--parte derecha de el footer-->
             <span>Contact Us</span>
           </div>
           <div>
-            <ul>
+            <ul class="footer-social_li footer-li">
               <li><span>(555) 999-999</span></li>
               <li><span>334 E Margete ave</span></li>
             </ul>
