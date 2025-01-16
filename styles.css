@@ -51,23 +51,35 @@
     width: 2px;
     background: #fff;
 }
+.logo-footer{
+    width: 60px;
+    border-radius: 25px;
+}
+.footer-social_li:hover{
+    color: #ffffff;
+}
+
+
+
+
+/* ESTILOS EN EL BODY */
 .body {
     background-color: #eee; /* fondo gris de fondo */
     margin-top: 95px; /* margen superior de 95px */
-    padding: 0;
 
 }
 
 .navegation-bar { /* barra de navegación */
     background-color: #4f4f27;
-    padding: 10px 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-    height: 70px;
     width: 100%;
+    height: 100px;
+    padding-top: 10px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+    
 }
 
 .nav-list { /* la lista  de navegación */
@@ -84,7 +96,6 @@
     text-decoration: none;
     margin: 0 15px;
     font-size: 32px;
-    font-family: arial, sans-serif;
     transition: color 0.3s ease;
     text-shadow: black 2px 2px 2px;
 }
@@ -96,6 +107,7 @@
 .logo { /* logo de la página  y tamano*/
     height: 75px;
     width: 75px;
+    border-radius: 25px;
 }
 
 .login { /* boton de login */
@@ -107,7 +119,6 @@
     border: 2px solid #ffc107;
     border-radius: 10px;
     font-size: 32px;
-    font-family: arial, sans-serif;
     font-weight: bold;
     display: inline-block;
     text-align: center;
@@ -130,7 +141,6 @@
     border: 2px solid #ffc107;
     border-radius: 10px;
     font-size: 32px;
-    font-family: arial, sans-serif;
     font-weight: bold;
     display: inline-block;
     text-align: center;
