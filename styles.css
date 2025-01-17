@@ -157,3 +157,8 @@
 .footer-social_li:hover{
     color: #ffffff;
 }
+
+.line{
+    height: 380px;
+    border: 1px solid #fff;
+}
