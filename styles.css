@@ -103,6 +103,7 @@
     display: flex;
     background-color: #49492E;
     justify-content: space-between;
+
 }
 
 .footer-social{
@@ -158,7 +159,53 @@
     color: #ffffff;
 }
 
-.line{
-    height: 380px;
-    border: 1px solid #fff;
+.fondo-central {  /* fondo de la pagina del div central */
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('images/fondocentral.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.fondo-central { /* fondo de la pagina del div central y ajustando su contenido*/
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.contenedor-imageniz { /* imagen izquierda */
+    width: 399px; 
+    height: 573px; 
+    position: relative; 
+    overflow: hidden; 
+    margin: 0 20px; 
+}
+
+.contenedor-imagende { /* imagen derecha */
+    width: 800.33px; 
+    height: 562px; 
+    position: relative; 
+    overflow: hidden; 
+    margin: 0 20px; 
+}
+
+.contenedor-imageniz img { /* ajustando la imagen izquierda, que sea flexible */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 100%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+}
+
+.contenedor-imagende img { /* ajustando la imagen derecha, que sea flexible */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 100%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
 }
