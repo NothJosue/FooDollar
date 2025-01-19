@@ -59,7 +59,10 @@
     color: white;
     text-decoration: none;
     margin: 10px 15px;
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 2px solid #ffc107;
     border-radius: 10px;
     font-size: 32px;
@@ -177,15 +180,15 @@
 }
 
 .contenedor-imageniz { /* imagen izquierda */
-    width: 399px; 
-    height: 573px; 
+    width: 400px; 
+    height: 575px; 
     position: relative; 
     overflow: hidden; 
-    margin: 0 20px; 
+    margin: 0 100px; 
 }
 
 .contenedor-imagende { /* imagen derecha */
-    width: 800.33px; 
+    width: 800px; 
     height: 562px; 
     position: relative; 
     overflow: hidden; 
