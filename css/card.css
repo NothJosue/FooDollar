@@ -83,3 +83,9 @@
 .direcction:hover{
     color: #fff;
 }
+/* Linea de la caja */
+.line{
+    width: 1px;
+    height: 360px;
+    background-color: #fff;
+}
