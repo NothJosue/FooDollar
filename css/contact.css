@@ -20,29 +20,28 @@ section {
     text-decoration: none;
 }
 
-.supform {
+form {
     display: grid;
-    width: 25%;
+    width: 30%;
     margin-left: 15%;
     text-align: center;
-    border: 3px solid black;
     padding: 9px;
     border-radius: 5px;
 }
 
-.supform p {
+form p {
     text-align: center;
 }
 
 
-.supform button:hover {
+form button:hover {
     border-color: #d5d7d8;
     box-shadow: 0 0 5px rgba(213, 215, 218, 0.5);
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 
-fieldset {
+.datainfo {
     margin-left: 20px;
 }
 
@@ -54,7 +53,7 @@ div .p01 {
 }
 
 
-.supform input, textarea {
+form input, textarea {
     margin-top: 9px;
     background: #29241b
 }
@@ -77,23 +76,14 @@ textarea:hover {
 
 /* Botones */
 
-.botones button {
+section form button, section form input {
     background: #29241b;
-    color: black;
-    margin-left: 40px;
-    margin-top: 50px;
     font-size: 20px;
-    margin-bottom: 40px;
 }
 
-.botones button a {
+section form button a {
     text-decoration: none;
     color: black;
-
-}
-
-.botones {
-    margin-left: 40%;
 }
 
 .botones button:hover {
