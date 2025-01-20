@@ -1,0 +1,54 @@
+@import 'var.css';
+@import 'floatinglabel.css';
+
+.container-flex{
+    width: 400px;
+    height: 506;
+    border-radius: 60px;
+    background: var(--color-brown-dark);
+    padding: 30px 44px;
+}
+
+
+.icons-register{
+    display: flex;
+    justify-content: center;
+}
+
+.title-register{
+    color: #DADADA;
+    font-size: 35px;
+    position: relative;
+}
+.title{
+    padding: 6px;
+    font-weight: 400;
+}
+
+.title::after{
+    content: '';
+    width: 80px;
+    height: 4px;
+    border-radius: 3px;
+    position: absolute;
+    background: var(--color-paleta-blue-sky);
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.span{
+    color: #fff;
+    font-size: 14px;
+}
+.direcction{
+    color: var(--color-paleta-blue-sky);
+    font-size: 20px;
+}
+.container-floating-label{
+    padding-bottom: 20px;
+}
+
+.span-log{
+    padding: 15px 20px;
+}

@@ -1,0 +1,16 @@
+@import 'var.css';
+
+.button{
+    background: var(--color-brown-light);
+    width: 76px;
+    height: 36px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+.button:hover{
+    background: #070707;
+    cursor: pointer;
+    color: #fff;
+}
