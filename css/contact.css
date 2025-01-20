@@ -20,6 +20,14 @@ section {
     text-decoration: none;
 }
 
+section form input, section form textarea {
+    color: white;
+}
+
+section form .m01 {
+    color: black;
+}
+
 form {
     display: grid;
     width: 30%;
@@ -59,7 +67,7 @@ form input, textarea {
 }
 
 textarea::placeholder {
-    color: black;
+    color: white;
   }
 
 .supform input:hover {
